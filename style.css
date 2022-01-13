@@ -1,0 +1,137 @@
+body {
+    margin: 0px;
+    background-color: #2D2424;
+    color: #E0C097;
+}
+
+.header {
+    text-align: center;
+    margin: 0px auto;
+    width: 30%;
+    padding: 20px;
+    user-select: none;
+}
+
+.heading-1 {
+    margin: 0px;
+    font-size: 6rem;
+    font-family: 'Bangers', cursive;
+    letter-spacing: 4px;
+    /* text-shadow: 4px 0 #B85C38; */
+}
+
+
+.heading-2 {
+    margin: 0px;
+    font-size: 2.5rem;
+    font-family: 'Amatic SC', cursive;
+    text-align: right;
+}
+
+.drum-set {
+    text-align: center;
+    padding: 90px 0px;
+    border-radius: 150px;
+}
+
+.drum {
+    border: 5px solid #5C3D2E;
+    width: 200px;
+    height: 200px;
+    border-radius: 40px;
+    font-family: 'Bangers';
+    /* text-shadow: 3px 0 #B85C38; */
+    font-size: 0rem;
+    color: #5C3D2E;
+    text-shadow: 5px 0 #E0C097;
+    outline: none;
+
+}
+
+.footer {
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: 'Amatic SC', cursive;
+}
+
+.a {
+    background-image: url("cymbal.png");
+    background-position: center;
+    background-size: 200px 150px;
+    background-repeat: no-repeat;
+}
+
+.s {
+    background-image: url("snare.png");
+    background-position: center;
+    background-size: 300px 230px;
+    background-repeat: no-repeat;
+}
+
+.d {
+    background-image: url("bass.png");
+    background-position: top;
+    background-size: 180px 250px;
+    background-repeat: no-repeat;
+}
+
+.f {
+    background-image: url("tom-set1.png");
+    background-position: center;
+    background-size: 180px 180px;
+    background-repeat: no-repeat;
+
+}
+
+.j {
+    background-image: url("tom-set1.png");
+    background-position: center;
+    background-size: 160px 160px;
+    background-repeat: no-repeat;
+}
+
+.k {
+    background-image: url("crash.png");
+    background-position: center;
+    background-size: 200px 170px;
+    background-repeat: no-repeat;
+}
+
+.l {
+    background-image: url("floor-tom.png");
+    background-position: top;
+    background-size: 240px 250px;
+    background-repeat: no-repeat;
+}
+
+.drum:active {
+    width: 205px;
+    height: 205px;
+}
+
+@media screen and (max-width:480px) {
+    .header {
+        width: 100%;
+    }
+
+    .heading-1 {
+        font-size: 4rem;
+        text-align: center;
+    }
+
+    .heading-2 {
+        text-align: center;
+    }
+
+    .drum {
+        width: 150px;
+        height: 150px;
+        border-radius: 30px;
+        font-size: 0rem;
+    }
+
+    .drum:active {
+        width: 155px;
+        height: 155px;
+    }
+}
